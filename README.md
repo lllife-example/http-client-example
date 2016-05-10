@@ -18,7 +18,7 @@ Xamarin Studio Community: 6.0 (build 5104)
 
     ![](Screen/apple-tls.png)
 
-```
+```csharp
 [Test]
 public void ShouldConnectToGoogle() {
     var url = "https://www.google.com";
@@ -29,7 +29,7 @@ public void ShouldConnectToGoogle() {
 }
 ```
 
-```
+```csharp
 [Test]
 public void ShouldConnectToSoundcloud () {
     var url = "http://api.soundcloud.com/users/67393202/tracks.json?client_id=0be8085a39603d77fbf672a62a7929ea";
@@ -46,4 +46,6 @@ public void ShouldConnectToSoundcloud () {
     Assert.IsTrue (obj.Count () > 0);
 }
 ```
+
+    ![](Screen/run-test.png)
 
