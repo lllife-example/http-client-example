@@ -51,6 +51,17 @@ public void ShouldConnectToSoundcloud () {
 
 ## ใช้ NativeMessageHandler ของ ModernHttpClient
 
+```csharp
+[Test]
+public void ShouldConnectToGoogleWithModernHttpClient () {
+    var url = "https://www.google.com";
+    var client = new HttpClient (new NativeMessageHandler ());
+    var rs = client.GetAsync (url).Result;
+    var status = rs.StatusCode;
+    Assert.AreEqual (status, HttpStatusCode.OK);
+}
+```
+
 ![](Screen/run-test.png)
 
 ## Link
