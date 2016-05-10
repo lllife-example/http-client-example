@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="HttpClientSample.Tests/HttpClientSample.Tests.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HttpClientSample.Tests/HttpClientSpec.cs">
+    <Files>
+      <File FileName="HttpClientSample.Tests/Main.cs" Line="1" Column="1" />
+      <File FileName="HttpClientSample.Tests/UnitTestAppDelegate.cs" Line="1" Column="1" />
+      <File FileName="HttpClientSample.Tests/HttpClientSpec.cs" Line="12" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.HttpClientSample.Tests PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C9A69641-F419-4B7C-96F0-48EB5846E89B" />
+</Properties>
