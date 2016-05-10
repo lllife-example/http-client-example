@@ -41,8 +41,8 @@ public void ShouldConnectToSoundcloud () {
         Genre = x["genre"]
     });
 
-    var genersis = obj.Where (x => x.Genre.ToString() == "GENESIS").Count ();
-    Assert.AreEqual (1, genersis);
+    var genesis = obj.Where (x => x.Genre.ToString() == "GENESIS").Count ();
+    Assert.AreEqual (1, genesis);
     Assert.IsTrue (obj.Count () > 0);
 }
 ```
