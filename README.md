@@ -8,7 +8,7 @@ Kernel Version: Darwin 15.4.0
 Xamarin Studio Community: 6.0 (build 5104)
 ```
 
-## ในกรณีที่ URL เป็น https
+## ในกรณีที่ URL เป็น HTTPS
 
 - จะเกิด Error SecureChannelFailure
 
@@ -17,6 +17,8 @@ Xamarin Studio Community: 6.0 (build 5104)
 - ให้ปรับ SSL/TLS implementation เป็น Apple TLS
 
     ![](Screen/apple-tls.png)
+
+## ใช้ HttpClient ธรรมดา
 
 ```csharp
 [Test]
@@ -47,5 +49,11 @@ public void ShouldConnectToSoundcloud () {
 }
 ```
 
+## ใช้ NativeMessageHandler ของ ModernHttpClient
+
 ![](Screen/run-test.png)
+
+## Link
+
+- https://github.com/paulcbetts/ModernHttpClient
 
