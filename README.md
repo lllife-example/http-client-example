@@ -47,5 +47,5 @@ public void ShouldConnectToSoundcloud () {
 }
 ```
 
-    ![](Screen/run-test.png)
+![](Screen/run-test.png)
 
