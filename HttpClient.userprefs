@@ -1,9 +1,7 @@
 ﻿<Properties StartupItem="HttpClientSample.Tests/HttpClientSample.Tests.csproj">
   <MonoDevelop.Ide.Workbench ActiveDocument="HttpClientSample.Tests/HttpClientSpec.cs">
     <Files>
-      <File FileName="HttpClientSample.Tests/Main.cs" Line="1" Column="1" />
-      <File FileName="HttpClientSample.Tests/UnitTestAppDelegate.cs" Line="1" Column="1" />
-      <File FileName="HttpClientSample.Tests/HttpClientSpec.cs" Line="12" Column="4" />
+      <File FileName="HttpClientSample.Tests/HttpClientSpec.cs" Line="56" Column="36" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
